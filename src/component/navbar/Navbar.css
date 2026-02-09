@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #0f3820;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+}
+
+
+.nav-menu li a {
+    color: wheat;              
+    text-decoration: none;     
+    transition: color 0.3s;
+}
+
+.nav-menu li a:hover {
+    color: #ffcc00;            
+}
+
+.nav-menu li a:visited {
+    color: wheat;              
+}
+
+.nav-connect {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: wheat;
+    color: #0f3820;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect:hover {
+    transform: scale(1.05);
+}
