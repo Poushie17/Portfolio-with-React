@@ -1,0 +1,45 @@
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f3820; 
+    gap: 60px;                
+    margin: 80px 150px;        
+    width: 100%;
+    max-width: 900px;           
+}
+
+.projects-section h1 {
+    font-size: 64px;           
+    font-weight: 700;
+    text-align: center;
+    color: wheat;
+    margin-bottom: 30px;       
+}
+
+.project {
+    width: 100%;               
+    background-color: #1d5f29;
+    padding: 20px 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.02);    
+}
+
+.project h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: wheat;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e5d4d4;
+}
